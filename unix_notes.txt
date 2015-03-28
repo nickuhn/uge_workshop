@@ -1,0 +1,89 @@
+#pipes history into pager
+history | less
+
+#displays history
+history
+
+#lists contents of home
+ls ~
+
+#move up two dir
+cd ../../
+
+#move up one dir
+cd ..
+
+#print working dir
+pwd
+
+#change dir to documents folder
+cd Documents/
+
+#lists dir contents recursively
+ls -R
+
+#opens manual for ls
+man ls
+
+#List by time edited in long format
+ls -lt
+
+#list in time edited
+ls -t
+
+#changes to root dir
+cd /
+
+#scrolls for a clean screen
+clear
+
+#get the give version
+git --version
+
+#dispalys values of variables
+echo $PATH
+echo $EDITOR
+
+#opens config.fish in sublime text
+subl ~/.config/fish/config.fish
+
+#open a help screen for fish
+help
+
+#updated fish autocompletes
+fish_update_completions
+
+#check on brew status
+brew doctor
+
+#update homebrew
+brew update
+
+#list with color coding
+ls -G
+
+#displays unix name
+uname
+
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
+#brings up homebrew info file for fish
+brew info fish
+
+#pull info from selected url and pass through ruby
+curl -fsSL http://git.io/beJs | ruby
+
+#command to change shell to fish
+chsh -s /usr/local/bin/fish
+
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+
+#install fish with homebrew
+brew install fish
+
+#downloads and installs homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#create command to open files with sublime
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/sharedSupport/bin/subl" /bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/sharedSupport/bin/subl" /bin/subl

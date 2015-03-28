@@ -1,3 +1,6 @@
+# Hidden folder where staging area and commits are stored
+.git/
+
 #pipes history into pager
 history | less
 
